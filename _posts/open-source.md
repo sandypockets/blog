@@ -1,13 +1,13 @@
 ---
 title: 'Open source'
 excerpt: 'How big companies drive the entire community forward.'
-coverImage: '/assets/blog/getting-started/snowy-mountain.jpg'
+coverImage: '/assets/blog/open-source/climbing-a-mountain.jpg'
 date: '2021-06-12T05:00:00.000Z'
 author:
   name: sandypockets
   picture: '/assets/blog/authors/sandypockets_avatar.jpg'
 ogImage:
-  url: '/assets/blog/getting-started/cover.jpg'
+  url: '/assets/blog/open-source/climbing-a-mountain.jpg'
 ---
 
 Open source is a huge part of the developer ecosystem. Without it, many of your favourite apps and websites wouldn’t exist.

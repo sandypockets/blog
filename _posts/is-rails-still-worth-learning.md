@@ -1,13 +1,13 @@
 ---
 title: 'Is Rails still worth learning today?'
 excerpt: 'Probably.'
-coverImage: '/assets/blog/getting-started/snowy-mountain.jpg'
+coverImage: '/assets/blog/is-rails-still-worth-learning/winter-train-bridge.jpg'
 date: '2021-06-11T05:00:00.000Z'
 author:
   name: sandypockets
   picture: '/assets/blog/authors/sandypockets_avatar.jpg'
 ogImage:
-  url: '/assets/blog/getting-started/cover.jpg'
+  url: '/assets/blog/is-rails-still-worth-learning/winter-train-bridge.jpg'
 ---
 
 While Rails is definitely getting older, I still think it’s a great language with plenty of runway left. Whether it’s the right language for you depends on what you want to do with it. Sure, you can do just about anything server side with Node, but is it the most effective tool for the job? Could you spin up the same quality of backend faster with Rails? Which set up will be the easiest to onboard new devs or friends helping the cause?
