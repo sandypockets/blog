@@ -5,7 +5,7 @@ export default function Intro() {
         Blog.
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Get a beautiful, feature-rich blog up and running. Fast.
+        When I'm not building out my next project, I'm writing about programming.
       </h4>
     </section>
   )
