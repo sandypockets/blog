@@ -2,7 +2,7 @@
 title: 'The Call Stack, Web APIs, and the Event Loop'
 excerpt: 'How JavaScript fakes its way through async.'
 coverImage: '/assets/blog/getting-started/snowy-mountain.jpg'
-date: '2021-08-24T05:35:07.322Z'
+date: '2021-06-29T05:00:00.000Z'
 author:
   name: sandypockets
   picture: '/assets/blog/authors/sandypockets_avatar.jpg'
