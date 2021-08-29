@@ -2,7 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import Toggle from "../Utils/Toggle";
-import Highlight from "../Utils/Highlight";
+import HoverHighlight from "../Utils/HoverHighlight";
 import { useRouter } from 'next/router'
 
 const navigation = [
@@ -37,13 +37,13 @@ export default function Nav({ darkMode, setDarkMode }) {
             <div className="flex justify-between h-20 dark:bg-black dark:text-white">
               <div className="flex">
                 <div className="flex-shrink-0 flex items-center pr-4">
-                  <Highlight>
+                  <HoverHighlight>
                     <Link href={'/'}>
                       <a>
                         SANDYPOCKETS
                       </a>
                     </Link>
-                  </Highlight>
+                  </HoverHighlight>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {navigation.map((item, index) => (
