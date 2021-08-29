@@ -1,13 +1,13 @@
 ---
 title: 'Why I use Tailwind CSS'
 excerpt: 'It comes down to flexibility, and the developer experience.'
-coverImage: '/assets/blog/why-i-use-tailwind-css/airplane-minimal.jpg'
+coverImage: '/assets/blog/why-i-use-tailwind-css/tree-minimal.jpg'
 date: '2021-06-28T05:00:00.000Z'
 author:
   name: sandypockets
   picture: '/assets/blog/authors/sandypockets_avatar.jpg'
 ogImage:
-  url: '/assets/blog/why-i-use-tailwind-css/airplane-minimal.jpg'
+  url: '/assets/blog/why-i-use-tailwind-css/tree-minimal.jpg'
 ---
 
 Soon after learning CSS basics, I started working with Sass. As a JavaScript developer, the concept of imports, variables, and using scope within nested selectors felt intuitive, and was a great way to keep unruly CSS files DRY. It was easy to navigate, and still readable to anyone familiar with CSS. It was my stylistic weapon of choice.
