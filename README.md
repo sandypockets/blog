@@ -1,4 +1,6 @@
 # My blog
+An updated version of my personal blog. 
+
 Bootstrapped with `create next app`, using my [Next.js Blog Starter](https://blog-starter.sandypockets.dev/?utm_source=github&utm_medium=readmeblog&utm_campaign=launch&utm_id=1).
 
 ## Built with
@@ -46,18 +48,3 @@ Bootstrapped with `create next app`, using my [Next.js Blog Starter](https://blo
 * babel-loader `^8.2.2`
 * postcss `^8.2.4`
 * tailwindcss `npm:@tailwindcss/postcss7-compat@^2.2.4`
-
-## Preview
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sandypockets/nextjs-blog-starter/tree/main)
-
-## Live demo
-
-Check out the live demo at [blog-starter.sandypockets.dev](https://blog-starter.sandypockets.dev/?utm_source=github&utm_medium=readmeblog&utm_campaign=launch&utm_id=1).
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=sandypockets):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/sandypockets/nextjs-blog-starter/tree/main&project-name=sandypockets-blog-starter&repository-name=sandypockets-blog-starter)
