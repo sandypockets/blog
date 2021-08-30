@@ -4,7 +4,9 @@ import {BLOG_NAME, HOME_OG_IMAGE_URL} from '../../lib/constants'
 // Favicon should be recreated at various sizes for each link below.
 export default function Meta() {
   // const [theme, setTheme] = useState('okaidia');
-  const theme = 'okaidia'
+  // const theme = 'okaidia'
+  const theme = 'tomorrow'
+  // const theme = 'coy'
 
   return (
     <Head>
