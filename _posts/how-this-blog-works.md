@@ -40,8 +40,6 @@ ogImage:
 ---
 ```
 
-So what's happening here?
-
 Front matter is essentially a list of key/value pairs, just like JSON, or a JavaScript object, or a Ruby hash. The indentations (2 spaces, like a Markdown list indentation) result in a child being created. If this were written in JSON, it would look something like this:
 
 ```json
@@ -79,9 +77,9 @@ But where's the data come from? It's already there, long before the user even vi
 
 ### Fetching data, at build time
 
-In that `/pages/posts/[slug].js` component, the `getStaticPaths()` and `getStaticProps()` functions run at build time. They run on the server when the app is first being compiled. That's why they're called `static`, they don't change. This plays a big part in what makes the website lightning fast.
+In that `/pages/posts/[slug].js` component, the `getStaticPaths()` and `getStaticProps()` functions run at build time. They run on the server when the app is first being compiled. That's why they're called `static`, they don't change. This plays a big part in what makes the website so fast.
 
-Everything is pre-generated on the server at build, before the user even visits the site, instead of the more traditional set up where the page is generated on each request. Generating the pages at build allow our app to generate every page _once_, and then serve the same pre-built page to multiple users. It's easy to go down a rabbit hole with this, but the TL;DR is that it's more performant.
+Everything is pre-generated on the server, at build, before the user even visits the site, instead of the more traditional set up where the page is generated on each request. Generating the pages at build allow our app to generate every page _once_, and then serve the same pre-built page to multiple users. It's easy to go down a rabbit hole with this, but the TL;DR is that it's more performant.
 
 ### Getting all the posts
 
