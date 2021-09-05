@@ -51,7 +51,7 @@ That way, your frontend can make a call to one of the routes in `pages/api/`, wh
 
 ## Resources
 
-* [Next.js - Router]
-* [Create React App - Routing]
-* [Next.js - API Routes]
-* [Create React App - Fetching Data]
+* [Next.js - Router](https://nextjs.org/docs/api-reference/next/router)
+* [Create React App - Routing](https://create-react-app.dev/docs/adding-a-router/)
+* [Next.js - API Routes](https://nextjs.org/docs/api-routes/introduction)
+* [Create React App - Fetching Data](https://create-react-app.dev/docs/fetching-data-with-ajax-requests)
