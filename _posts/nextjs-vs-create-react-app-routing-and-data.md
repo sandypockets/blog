@@ -22,7 +22,7 @@ With Create React App, you’ll need to set routes up manually and install an ad
 While setting up React Router isn’t complicated, Next.js handles routing beautifully, right out of the box. When you spin up a new Next.js app, it comes with a `pages/` directory at the root. Files you add there will automatically create routes based on their title. Adding a new page is as simple as creating a new file.
 
 * `pages/hello-world.jsx` becomes `sandypockets.dev/hello-world`
-* `pages/posts/hello-world.jsx` becomes `sandypockets.dev/posts/hello-world.jsx`
+* `pages/posts/hello-world.jsx` becomes `sandypockets.dev/posts/hello-world`
 
 Next.js makes dynamic routing easy as can be too. Each post on this blog is rendered using a dynamic route. This means that even though the page path changes, each blog post is created from a single skeleton, which then renders each post dynamically.
 
