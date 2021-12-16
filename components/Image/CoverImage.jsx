@@ -7,8 +7,8 @@ export default function CoverImage({ title, src, slug, height, width, coverImage
     <Image
       src={src}
       alt={`Cover Image for ${title}`}
-      className={cn('shadow-sm', {
-        'hover:shadow-md transition-shadow duration-200 object-cover': slug,
+      className={cn('shadow-sm object-cover', {
+        'hover:shadow-md transition-shadow duration-200': slug,
       })}
       layout="responsive"
       width={width}
