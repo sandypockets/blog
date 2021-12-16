@@ -107,3 +107,7 @@
 .markdown table {
   @apply table-auto;
 }
+
+.markdown img {
+  @apply mx-auto;
+}
