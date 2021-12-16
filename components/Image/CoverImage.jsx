@@ -10,7 +10,7 @@ export default function CoverImage({ title, src, slug, height, width, coverImage
       className={cn('shadow-sm object-cover', {
         'hover:shadow-md transition-shadow duration-200': slug,
       })}
-      layout="fill"
+      layout="responsive"
       width={width}
       height={height}
       priority={coverImagePriority ? coverImagePriority : false}
