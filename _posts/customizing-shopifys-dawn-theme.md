@@ -1,7 +1,7 @@
 ---
 title: 'Customizing Shopify’s Dawn theme'
 excerpt: "The start of a short series of tutorials for customizing Shopify's newest theme, Dawn."
-coverImage: '/assets/blog/counting-cards-with-javascript/computer-code.jpg'
+coverImage: '/assets/blog/customizing-shopifys-dawn-theme/computer-code.jpg'
 date: '2021-12-15T06:00:00.000Z'
 author:
   name: 'sandypockets'
@@ -31,7 +31,7 @@ a.button, button.button, button.shopify-payment-button__button {
 }
 ```
 
-#### Step 2
+#### Step 2 - Add a schema setting
 Next up, let’s add a setting to the schema, so we can give that `{{ settings.button_border_radius }}` a value.
 
 In the `config` folder, open the `settings_schema.json` file. Create a new line after the closing curly bracket of the first object in the settings array. In `Dawn version 2.4.0`, it’s on line 9.
