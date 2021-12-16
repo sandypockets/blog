@@ -1,7 +1,7 @@
 ---
 title: 'Customizing Shopify’s Dawn theme'
 excerpt: "The start of a short series of tutorials for customizing Shopify's newest theme, Dawn."
-coverImage: '/assets/blog/counting-cards-with-javascript/birds.jpg'
+coverImage: '/assets/blog/counting-cards-with-javascript/computer-code.jpg'
 date: '2021-12-15T06:00:00.000Z'
 author:
   name: 'sandypockets'
@@ -12,10 +12,11 @@ ogImage:
 
 Shopify’s newest theme, Dawn, is fast, beautifully designed, and comes with a solid range of settings right out of the box. Still, even with such great flexibility built into the theme editor, some businesses might still need to make additional adjustments. In this short blog series, I’ll walk through building out small features, and adding controllable settings to theme editor to manage them.
 
-## Button rounding, with settings, in 2 steps
+## Button rounding
+###### with settings, in 2 steps
 Button shapes typically come in three varieties: square corners, soft corners, and a pill. The Dawn theme uses square corners by default, but doesn’t include any settings to round those corners without writing code. Let’s add some code to allow the user to toggle button rounding on and off, as well as manage the rounding amount.
 
-### Step 1  - Add some CSS
+#### Step 1  - Add some CSS
 Open the `theme.liquid` file. Add a new line above the `{% endstyle %}` liquid tag. Then create a new CSS rule to round the buttons.
 
 Shopify uses anchor elements, with a `.button` class for most navigational buttons, however the add to cart form uses an actual `<button>` element. Additionally, the “Buy it now” button (if enabled) has some extra classes, so you need to make sure you’re being specific enough with your CSS for the change to take effect.
@@ -30,11 +31,7 @@ a.button, button.button, button.shopify-payment-button__button {
 }
 ```
 
-a.button, button.button, button.shopify-payment-button__button {
-border-radius: {{ settings.button_border_radius }}px;
-}
-
-### Step 2
+#### Step 2
 Next up, let’s add a setting to the schema, so we can give that `{{ settings.button_border_radius }}` a value.
 
 In the `config` folder, open the `settings_schema.json` file. Create a new line after the closing curly bracket of the first object in the settings array. In `Dawn version 2.4.0`, it’s on line 9.
