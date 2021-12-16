@@ -1,19 +1,18 @@
 ---
 title: 'Customizing Shopify’s Dawn theme'
 excerpt: "The start of a short series of tutorials for customizing Shopify's newest theme, Dawn."
-coverImage: '/assets/blog/customizing-shopifys-dawn-theme/computer-code.jpg'
+coverImage: '/assets/blog/customizing-shopifys-dawn-theme/computer-code.jpeg'
 date: '2021-12-15T06:00:00.000Z'
 author:
   name: 'sandypockets'
   picture: '/assets/blog/authors/sandypockets_avatar.jpg'
 ogImage:
-  url: '/assets/blog/customizing-shopifys-dawn-theme/computer-code.jpg'
+  url: '/assets/blog/customizing-shopifys-dawn-theme/computer-code.jpeg'
 ---
 
 Shopify’s newest theme, Dawn, is fast, beautifully designed, and comes with a solid range of settings right out of the box. Still, even with such great flexibility built into the theme editor, some businesses might still need to make additional adjustments. In this short blog series, I’ll walk through building out small features, and adding controllable settings to theme editor to manage them.
 
 ## Button rounding
-###### with settings, in 2 steps
 Button shapes typically come in three varieties: square corners, soft corners, and a pill. The Dawn theme uses square corners by default, but doesn’t include any settings to round those corners without writing code. Let’s add some code to allow the user to toggle button rounding on and off, as well as manage the rounding amount.
 
 #### Step 1  - Add some CSS
