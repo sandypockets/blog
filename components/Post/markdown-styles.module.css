@@ -81,7 +81,7 @@
 }
 
 .markdown h1 {
-  @apply text-4xl md:text-6xl lg:text-7xl mt-14 mb-4;
+  @apply text-4xl md:text-6xl lg:text-7xl mt-14 mb-4 leading-none;
 }
 
 .markdown h2 {
