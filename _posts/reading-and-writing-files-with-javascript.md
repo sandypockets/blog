@@ -7,7 +7,7 @@ author:
   name: 'sandypockets'
   picture: '/assets/blog/authors/sandypockets_avatar.jpg'
 ogImage:
-url: '/assets/blog/2022/winter-trees.jpg'
+  url: '/assets/blog/2022/winter-trees.jpg'
 ---
 
 # Reading and writing files with JavaScript
