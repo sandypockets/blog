@@ -49,7 +49,8 @@ export const getServerSideProps = async ({ res }) => {
   //   </urlset>
   // `;
 
-   const sitemap = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://sandypockets.dev/about.jsx</loc>
 <lastmod>2022-02-21T04:03:03.531Z</lastmod>
