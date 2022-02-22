@@ -76,6 +76,12 @@ export const getServerSideProps = async ({ res }) => {
 <priority>1.0</priority>
 </url>
 <url>
+<loc>https://sandypockets.dev/posts/checking-ps5-inventory-with-javascript</loc>
+<lastmod>2022-02-21T04:03:03.531Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
 <loc>https://sandypockets.dev/posts/counting-cards-with-javascript</loc>
 <lastmod>2022-02-21T04:03:03.531Z</lastmod>
 <changefreq>monthly</changefreq>
