@@ -13,7 +13,7 @@
 }
 
 .markdown code {
-  @apply border border-gray-300 border-opacity-25 p-0.5;
+  @apply border border-gray-300 border-opacity-25 p-1.5 rounded-lg;
 }
 
 .markdown pre > code {
@@ -89,7 +89,7 @@
 }
 
 .markdown h3 {
-  @apply text-3xl md:text-4xl lg:text-5xl mt-8 mb-4;
+  @apply text-3xl md:text-4xl lg:text-5xl mt-10 mb-4;
 }
 
 .markdown h4 {
