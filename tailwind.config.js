@@ -5,6 +5,20 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      animation: {
+        out: 'fadeOut 1.1s ease-in-out',
+        in: 'fadeIn 1.1s ease-in-out',
+      },
+      keyframes: theme => ({
+        fadeOut: {
+          '0%': { opacity: '100' },
+          '100%': { opacity: '0' },
+        },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '100' },
+        },
+      }),
       fontFamily: {
         "sans": ['ui-sans-serif', 'system-ui'],
         "serif": ['ui-serif', 'Georgia'],

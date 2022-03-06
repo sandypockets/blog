@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Meta from './Meta'
 import Nav from "./Nav";
 
-export default function Layout({ children }) {
+export default function Layout({ children, footer=true }) {
   const [darkMode, setDarkMode] = useState()
 
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function Layout({ children }) {
       <div className="min-h-screen dark:text-gray-100 dark:bg-black font-inter">
         <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
         <main className="pt-20">{children}</main>
-        <Footer />
+        {footer && <Footer />}
       </div>
     </>
   )
