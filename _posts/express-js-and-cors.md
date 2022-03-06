@@ -164,3 +164,5 @@ console.log('Server listening on port 80')
 - [Express JS Docs](https://expressjs.com/)
 - [How to create a bot to check product availability using an Express server](https://sandypockets.dev/posts/checking-ps5-inventory-with-javascript)
 - [MDN CORS Guide](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+Cover photo credit goes to [Jan Huber on Unsplash](https://unsplash.com/@jan_huber) 
