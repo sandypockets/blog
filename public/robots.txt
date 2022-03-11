@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sandypockets.dev/sitemap.xml
