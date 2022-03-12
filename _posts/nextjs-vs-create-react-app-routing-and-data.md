@@ -49,9 +49,10 @@ Next.js is serverless. Of course, that’s only half true. It doesn’t have a s
 
 That way, your frontend can make a call to one of the routes in `pages/api/`, which you can then use to format the data for upcoming requests, and in turn make any API calls to other services your app relies on. This type of configuration keeps all the heavy lifting on the server where it belongs. And, since your environment variables, along with your app’s business logic, are only used in the `pages/api/` directory, they’re never visible on the frontend.
 
-## Resources
+## Further reading
 
 * [Next.js - Router](https://nextjs.org/docs/api-reference/next/router)
 * [Create React App - Routing](https://create-react-app.dev/docs/adding-a-router/)
 * [Next.js - API Routes](https://nextjs.org/docs/api-routes/introduction)
 * [Create React App - Fetching Data](https://create-react-app.dev/docs/fetching-data-with-ajax-requests)
+* [How to add an RSS feed to a Next.js blog](https://sandypockets.dev/posts/nextjs-rss-feed)
