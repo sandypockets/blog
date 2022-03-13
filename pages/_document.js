@@ -1,10 +1,14 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import {KEYWORDS, DESCRIPTION, AUTHOR, LANG, BLOG_NAME} from "../lib/constants";
+import {
+  KEYWORDS,
+  DESCRIPTION,
+  AUTHOR,
+  LANG,
+  BLOG_NAME,
+} from "../lib/constants";
 import { GA_TRACKING_ID } from "../lib/gtag";
 
 export default class MyDocument extends Document {
-
-
   render() {
     // const [theme, setTheme] = useState('okaidia');
     // const theme = 'okaidia'
