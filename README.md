@@ -20,6 +20,7 @@ Bootstrapped with `create next app`, using my [Next.js Blog Starter](https://blo
 * Tailwind CSS
 * Preformatted code syntax highlighting
 * Priority image downloads for content above the fold, deferred downloads for below it
+* Automatically generated sitemap and RSS feed
 * Storybook.js
 
 ## Dependencies
@@ -46,5 +47,11 @@ Bootstrapped with `create next app`, using my [Next.js Blog Starter](https://blo
 * @storybook/react `^6.3.7`
 * autoprefixer `^10.2.1`
 * babel-loader `^8.2.2`
+* eslint `8.11.0`
+* eslint-config-next `12.1.0`
+* eslint-config-prettier `^8.5.0`
+* globby `^13.1.1`
 * postcss `^8.2.4`
+* prettier `^2.5.1`
+* rss `^1.2.2`
 * tailwindcss `npm:@tailwindcss/postcss7-compat@^2.2.4`

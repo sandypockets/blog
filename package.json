@@ -1,7 +1,14 @@
 {
   "name": "sandypockets-blog",
-  "version": "0.1.3",
-  "private": true,
+  "version": "0.1.5",
+  "bugs": {
+    "url": "https://github.com/sandypockets/blog/issues"
+  },
+  "author": {
+    "name": "sandypockets",
+    "email": "hello@sandypockets.dev",
+    "url": "https://sandypockets.dev"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
