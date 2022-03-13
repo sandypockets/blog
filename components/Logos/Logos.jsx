@@ -1,6 +1,6 @@
 import ReactLogo from "./ReactLogo";
-import JsLogo from "./JsLogo"
-import RubyLogo from "./RubyLogo"
+import JsLogo from "./JsLogo";
+import RubyLogo from "./RubyLogo";
 import RailsLogo from "./RailsLogo";
 import HtmlLogo from "./HtmlLogo";
 import CssLogo from "./CssLogo";
@@ -28,7 +28,6 @@ import TestingLibrary from "./TestingLibrary";
 export default function Logos() {
   return (
     <div className="flex justify-center flex-wrap  mini:pb-0 lg:mx-18 xl:mx-24 2xl:mx-60">
-
       <NodeLogo />
       <ReactLogo />
       <ExpressLogo />
@@ -60,7 +59,6 @@ export default function Logos() {
       <ChaiLogo />
       <CypressLogo />
       <SeleniumLogo />
-
     </div>
-  )
+  );
 }

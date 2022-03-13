@@ -20,5 +20,5 @@ export default function MoreStories({ posts }) {
         ))}
       </div>
     </section>
-  )
+  );
 }

@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "postbuild": "node ./scripts/generate-sitemap.mjs && node ./scripts/generate-rss.mjs",
+    "lint": "next lint",
+    "prettier": "prettier -c ./",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -34,6 +36,9 @@
     "@storybook/react": "^6.3.7",
     "autoprefixer": "^10.2.1",
     "babel-loader": "^8.2.2",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "eslint-config-prettier": "^8.5.0",
     "globby": "^13.1.1",
     "postcss": "^8.2.4",
     "prettier": "2.5.1",

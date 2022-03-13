@@ -1,40 +1,40 @@
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: 'class',
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       animation: {
-        out: 'fadeOut 1.1s ease-in-out',
-        in: 'fadeIn 1.1s ease-in-out',
+        out: "fadeOut 1.1s ease-in-out",
+        in: "fadeIn 1.1s ease-in-out",
       },
-      keyframes: theme => ({
+      keyframes: (theme) => ({
         fadeOut: {
-          '0%': { opacity: '100' },
-          '100%': { opacity: '0' },
+          "0%": { opacity: "100" },
+          "100%": { opacity: "0" },
         },
         fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '100' },
+          "0%": { opacity: "0" },
+          "100%": { opacity: "100" },
         },
       }),
       fontFamily: {
-        "sans": ['ui-sans-serif', 'system-ui'],
-        "serif": ['ui-serif', 'Georgia'],
-        "mono": ["Roboto Mono", 'SFMono-Regular'],
-        "inter": ['Inter var'],
+        sans: ["ui-sans-serif", "system-ui"],
+        serif: ["ui-serif", "Georgia"],
+        mono: ["Roboto Mono", "SFMono-Regular"],
+        inter: ["Inter var"],
       },
       colors: {
         // Custom accent colors.
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
+        "accent-1": "#FAFAFA",
+        "accent-2": "#EAEAEA",
+        "accent-7": "#333",
+        success: "#0070f3",
+        cyan: "#79FFE1",
         // Transparent and current
-        transparent: 'transparent',
-        current: 'currentColor',
+        transparent: "transparent",
+        current: "currentColor",
         // All available colors. Remove as needed.
         blueGray: colors.blueGray,
         coolGray: colors.coolGray,
@@ -59,27 +59,25 @@ module.exports = {
         rose: colors.rose,
       },
       spacing: {
-        28: '7rem',
+        28: "7rem",
       },
       letterSpacing: {
-        tighter: '-.04em',
+        tighter: "-.04em",
       },
       lineHeight: {
         tight: 1.2,
       },
       fontSize: {
-        '5xl': '2.5rem',
-        '6xl': '3rem',
-        '7xl': '4.5rem',
-        '8xl': '6.25rem',
+        "5xl": "2.5rem",
+        "6xl": "3rem",
+        "7xl": "4.5rem",
+        "8xl": "6.25rem",
       },
       boxShadow: {
-        sm: '0 5px 10px rgba(0, 0, 0, 0.12)',
-        md: '0 8px 30px rgba(0, 0, 0, 0.12)',
+        sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
+        md: "0 8px 30px rgba(0, 0, 0, 0.12)",
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
-}
+  plugins: [require("@tailwindcss/forms")],
+};

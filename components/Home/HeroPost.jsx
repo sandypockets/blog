@@ -1,7 +1,7 @@
-import Avatar from '../Image/Avatar'
-import DateFormatter from '../Utils/DateFormatter'
-import CoverImage from '../Image/CoverImage'
-import Link from 'next/link'
+import Avatar from "../Image/Avatar";
+import DateFormatter from "../Utils/DateFormatter";
+import CoverImage from "../Image/CoverImage";
+import Link from "next/link";
 
 export default function HeroPost({
   title,
@@ -40,5 +40,5 @@ export default function HeroPost({
         </div>
       </div>
     </section>
-  )
+  );
 }

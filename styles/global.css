@@ -14,7 +14,7 @@
 
 /* Your own custom utilities */
 @layer utilities {
-    .force-grayscale {
-        filter: grayscale(1) !important;
-    }
+  .force-grayscale {
+    filter: grayscale(1) !important;
+  }
 }

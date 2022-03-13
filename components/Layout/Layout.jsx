@@ -1,20 +1,24 @@
 import { useEffect, useState } from "react";
 import Footer from "./Footer";
-import Meta from './Meta'
+import Meta from "./Meta";
 import Nav from "./Nav";
 
-export default function Layout({ children, footer=true }) {
-  const [darkMode, setDarkMode] = useState()
+export default function Layout({ children, footer = true }) {
+  const [darkMode, setDarkMode] = useState();
 
   useEffect(() => {
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.classList.add('dark')
-      setDarkMode(true)
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      document.documentElement.classList.add("dark");
+      setDarkMode(true);
     } else {
-      document.documentElement.classList.remove('dark')
-      setDarkMode(false)
+      document.documentElement.classList.remove("dark");
+      setDarkMode(false);
     }
-  }, [darkMode])
+  }, [darkMode]);
 
   return (
     <>
@@ -25,5 +29,5 @@ export default function Layout({ children, footer=true }) {
         {footer && <Footer />}
       </div>
     </>
-  )
+  );
 }

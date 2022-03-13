@@ -4,7 +4,7 @@ import Layout from "../components/Layout/Layout";
 import { BLOG_NAME } from "../lib/constants";
 import PageHeading from "../components/PageHeading";
 import Logos from "../components/Logos/Logos";
-import Highlight from '../components/Utils/Highlight'
+import Highlight from "../components/Utils/Highlight";
 
 export default function About() {
   return (
@@ -14,12 +14,21 @@ export default function About() {
       </Head>
       <Container>
         <div className="pt-24 mb-12 h-full sm:pt-24 sm:my-11 sm:mx-22 md:mx-8 lg:mx-14 xl:mx-32 2xl:max-w-7xl">
-          <div className={" text-3xl pl-6 sm:text-6xl sm:leading-none sm:pl-3 sm:mb-20 md:text-7xl md:pl-5 lg:pl-16 xl:text-8xl 2xl:text-9xl xl:pl-14 2xl:pl-16 font-bold"}>
-            <p>I'm a serial learner,{' '}
-              <br/>
-              helping to build a <Highlight>safe</Highlight>, <Highlight>open</Highlight>, and <Highlight>inclusive</Highlight> internet.</p>
+          <div
+            className={
+              " text-3xl pl-6 sm:text-6xl sm:leading-none sm:pl-3 sm:mb-20 md:text-7xl md:pl-5 lg:pl-16 xl:text-8xl 2xl:text-9xl xl:pl-14 2xl:pl-16 font-bold"
+            }
+          >
+            <p>
+              I'm a serial learner, <br />
+              helping to build a <Highlight>safe</Highlight>,{" "}
+              <Highlight>open</Highlight>, and <Highlight>inclusive</Highlight>{" "}
+              internet.
+            </p>
           </div>
-          <h2 className="flex justify-center font-mono tracking-tight mt-12 lg:mt-24 mb-4 text-2xl text-gray-400">My Tech Stack</h2>
+          <h2 className="flex justify-center font-mono tracking-tight mt-12 lg:mt-24 mb-4 text-2xl text-gray-400">
+            My Tech Stack
+          </h2>
           <div>
             <Logos />
           </div>
@@ -35,5 +44,5 @@ export default function About() {
         {/*</section>*/}
       </Container>
     </Layout>
-  )
+  );
 }

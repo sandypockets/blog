@@ -5,5 +5,5 @@ export default function PageHeading({ children }) {
         {children}
       </h1>
     </section>
-  )
+  );
 }

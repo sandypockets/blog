@@ -1,38 +1,47 @@
 import { useState } from "react";
 import * as gtag from "../../../lib/gtag";
-import axios from 'axios'
+import axios from "axios";
 
 export default function ContactForm() {
   const [formContents, setFormContents] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-  })
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
 
-  const handleName = e => {setFormContents(prev => ({ ...prev, name: e.target.value }))}
-  const handleEmail = e => {setFormContents(prev => ({ ...prev, email: e.target.value }))}
-  const handlePhone = e => {setFormContents(prev => ({ ...prev, phone: e.target.value }))}
-  const handleMessage = e => {setFormContents(prev => ({ ...prev, message: e.target.value }))}
+  const handleName = (e) => {
+    setFormContents((prev) => ({ ...prev, name: e.target.value }));
+  };
+  const handleEmail = (e) => {
+    setFormContents((prev) => ({ ...prev, email: e.target.value }));
+  };
+  const handlePhone = (e) => {
+    setFormContents((prev) => ({ ...prev, phone: e.target.value }));
+  };
+  const handleMessage = (e) => {
+    setFormContents((prev) => ({ ...prev, message: e.target.value }));
+  };
 
-  const handleSubmit = e => {
-    console.log("19 - formContents: ", formContents)
-    e.preventDefault()
+  const handleSubmit = (e) => {
+    console.log("19 - formContents: ", formContents);
+    e.preventDefault();
     gtag.event({
-      action: 'submit_form',
-      category: 'Contact',
+      action: "submit_form",
+      category: "Contact",
       label: `Contact: ${formContents.email}`,
-      value: formContents.message
-    })
+      value: formContents.message,
+    });
 
     const msg = {
       subject: `New message from ${formContents.name} 👋`,
       text: `${formContents.name}, ${formContents.email} - ${formContents.message}`,
-    }
+    };
 
-    axios.post('/api/email', {
-      msg,
-    })
+    axios
+      .post("/api/email", {
+        msg,
+      })
       .then(function (response) {
         console.log(response);
       })
@@ -41,12 +50,12 @@ export default function ContactForm() {
       });
 
     setFormContents({
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
-    })
-  }
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
+  };
 
   return (
     <div className="bg-white dark:bg-black py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
@@ -120,7 +129,7 @@ export default function ContactForm() {
                         border border-gray-300
                         dark:bg-black"
               placeholder="Message"
-              defaultValue={''}
+              defaultValue={""}
               onChange={(e) => handleMessage(e)}
             />
           </div>
@@ -134,7 +143,9 @@ export default function ContactForm() {
                         hover:bg-white hover:text-black hover:border-black hover:border-3
                         dark:bg-black dark:border-white dark:hover:bg-white dark:hover:text-black
                         focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
-              onClick={(e) => {handleSubmit(e)}}
+              onClick={(e) => {
+                handleSubmit(e);
+              }}
               onSubmit={(e) => e.preventDefault()}
             >
               Submit
@@ -143,5 +154,5 @@ export default function ContactForm() {
         </form>
       </div>
     </div>
-  )
+  );
 }
