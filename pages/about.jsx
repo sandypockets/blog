@@ -20,7 +20,7 @@ export default function About() {
             }
           >
             <p>
-              I'm a serial learner, <br />
+              I&apos;m a serial learner, <br />
               helping to build a <Highlight>safe</Highlight>,{" "}
               <Highlight>open</Highlight>, and <Highlight>inclusive</Highlight>{" "}
               internet.
