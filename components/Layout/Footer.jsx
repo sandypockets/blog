@@ -8,6 +8,7 @@ const navigation = {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
+    { name: "Buy me a coffee", href: "https://www.buymeacoffee.com/sandypockets" },
   ],
   social: [
     // {
