@@ -1,6 +1,6 @@
 {
   "name": "sandypockets-blog",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "bugs": {
     "url": "https://github.com/sandypockets/blog/issues"
   },
@@ -18,7 +18,8 @@
     "prettier": "prettier ./ --write",
     "prettier-check": "prettier -c ./",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "new": "node ./scripts/generate-post.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.0",
