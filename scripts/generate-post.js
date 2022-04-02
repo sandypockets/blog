@@ -17,16 +17,16 @@ excerpt: "Lorem ipsum."
 coverImage: "/assets/blog/2022/ottawa-office.jpg"
 date: "${new Date(Date.now()).toISOString()}"
 author:
-  name: 'sandypockets'
-  picture: '/assets/blog/authors/sandypockets_avatar.jpg'
+  name: "sandypockets"
+  picture: "/assets/blog/authors/sandypockets_avatar.jpg"
 ogImage:
-  url: '/assets/blog/2022/ottawa-office.jpg'
+  url: "/assets/blog/2022/ottawa-office.jpg"
 ---
 `
 
   fs.writeFile(`./_posts/${title}.md`, frontMatter, (err) => {
     if (err) throw err;
-    console.log(`${title} created!`);
+    console.log(`Created ${title}.md!`);
     console.log("Don't forget to update the coverImage and ogImage path in the front matter!");
   });
 }
