@@ -10,7 +10,7 @@ ogImage:
   url: "/assets/blog/2022/robot-hand.jpg"
 ---
 
-# GitHub Copilot
+## GitHub Copilot
 GitHub Copilot is advertised by GitHub as _Your AI pair programmer_. After giving the extension a try for the day (in Webstorm), I have to say I agree with that sentiment.
 
 ## The suggestions are actually good
