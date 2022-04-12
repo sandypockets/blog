@@ -1,5 +1,5 @@
 ---
-title: "Github Copilot: Your AI Pair Programmer"
+title: "GitHub Copilot: Your AI Pair Programmer"
 excerpt: "Some first impressions of GitHub Copilot, touted as 'Your AI pair programmer'. How well Copilot is able to anticipate what I want to write (in most cases) is uncanny."
 coverImage: "/assets/blog/2022/robot-hand.jpg"
 date: "2022-04-02T13:36:13.338Z"
